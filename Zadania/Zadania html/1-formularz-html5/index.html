@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>1-formularz-html5</title>
+</head>
+
+<body>
+    <form action=" https://formspree.io/marcelawa20@gmail.com" method="POST">
+        <label for="name">Imię:</label>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <label for="surname">Nazwisko:</label>
+        <input type="text" name="surname" id="surname" required>
+        <br>
+        <label for="mail">E-mail:</label>
+        <input type="email" name="e-mail" id="mail" required>
+        <br>
+        <label for="tel">Numer kontaktowy:</label>
+        <input type="tel" name="tel" id="tel" required>
+        <br>
+        <label for="city">Wybierz miasto:</label>
+        <br>
+        <select name="city" id="city">
+            <option value="kraków" name="kraków">Kraków</option>
+            <option value="warszawa" name="warszawa">Warszawa</option>
+            <option value="gdańsk" name="gdansk">Gdańsk</option>
+        </select>
+        <br>
+        <p>Wybierz płeć:</p>
+        <br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Mężczyzna</label>
+        <br>
+        <input type="radio" name="gender" id="femal" value="femal">
+        <label for="femal">Kobieta</label>
+        <br>
+        <label for="message">Wiadomość:</label>
+        <textarea name="message" id="message"></textarea>
+        <br>
+        <label for="ok">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+        <input type="checkbox" name="ok" id="ok" required>
+        <input type="submit" value="Send" name="send">
+    </form>
+
+</body>
+
+</html>

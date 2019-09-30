@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    width: 50vw;
+    background-color: rgba(145, 255, 0, 0.493);
+    padding: 1rem;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    border: none;
+    background-color: rgb(202, 50, 202);
+    color: yellow;
+    padding: 0.20em;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: yellowgreen;
+    border: 2px dotted red;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.20em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+
+}
+
+input[type="submit"] {
+    background-color: rgb(241, 102, 78);
+    width: 20vw;
+    text-transform: uppercase;
+    color: blue;
+}
