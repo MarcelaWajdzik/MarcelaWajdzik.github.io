@@ -1,0 +1,42 @@
+@media(max-width:992px) {
+    main {
+        flex-wrap: wrap;
+    }
+
+    section {
+        flex-grow: 2;
+    }
+
+    aside.aside-two {
+        flex-grow: 1;
+    }
+
+    aside.aside-one {
+        order: 3;
+        flex-basis: 100%;
+        height: 30vh;
+    }
+}
+
+@media(max-width:768px) {
+    main {
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+
+    aside.aside-one {
+        order: 1;
+        flex-basis: 15vh;
+    }
+
+    aside.aside-two {
+        order: 2;
+        flex-basis: 15vh;
+
+    }
+
+
+
+
+}
