@@ -1,0 +1,20 @@
+.box {
+    border: 2px solid red;
+}
+
+.box-inside {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transform: rotate(15deg);
+    transform: translate(100px, 200px);
+    transition: all ease-in 0.2s;
+    /* transition usuniecie efekty siekiery */
+
+}
+
+/* gdy chcemy kilka wartosci transform to dodajemy je w jednym zdzie BEZ PRZECINKA !!!  transform: rotate(15deg) translate(100px, 200px)*/
+/* gdy obaamy rodzica to obracamy tez dziecko */
+.box-inside:hover {
+    transform: rotate(15deg) translate(100px, 200px) scale(1.5);
+}

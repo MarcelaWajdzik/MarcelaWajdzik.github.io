@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    background-color: rgb(7, 7, 7);
+}
+
+.animation {
+    margin: 50px auto;
+    width: 50vh;
+    height: 30vh;
+    position: relative;
+}
+
+.animation .number {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    line-height: 30vh;
+    opacity: 0;
+    font-size: 4rem;
+
+}
+
+
+
+.animation .number:first-child {
+    animation: time 1s linear;
+}
+
+.animation .number:nth-child(2) {
+    animation: time 1s 1s linear;
+    ;
+}
+
+.animation .number:nth-child(3) {
+    animation: time 1s 2s linear;
+    ;
+}
+
+.animation .number:nth-child(4) {
+    animation: time 1s 3s linear;
+    ;
+}
+
+.animation .number:nth-child(5) {
+    animation: time 1s 4s linear;
+}
+
+.animation .number:nth-child(6) {
+    animation: time 1s 5s linear;
+}
+
+.animation .number:nth-child(7) {
+    animation: time 1s 6s linear;
+}
+
+.animation .number:nth-child(8) {
+    animation: time 1s 7s linear;
+}
+
+.animation .number:nth-child(9) {
+    animation: time 1s 8s linear;
+}
+
+.animation .number:nth-child(10) {
+    animation: time 1s 9s linear;
+}
+
+.animation .number:nth-child(11) {
+    animation: time 5s 10s linear;
+}
+
+
+
+@keyframes time {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    95% {
+        opacity: 1;
+    }
+
+
+}

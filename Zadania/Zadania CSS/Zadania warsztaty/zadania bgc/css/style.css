@@ -1,0 +1,11 @@
+.box {
+    width: 100vh;
+    height: 100vh;
+    border: 2px green dotted;
+    margin: 0 auto;
+    background-image: url("https://www.wykop.pl/cdn/c3201142/comment_gudKbxsU79toEPCSTVcCi200G6RkzZMi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}

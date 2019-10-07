@@ -1,0 +1,29 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-transform: uppercase;
+ }
+
+ header .header {
+     text-transform: uppercase;
+     background-image: url("../zadanie-domowe-rwd-materialy/obrazy/man-1.jpg");
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     position: relative;
+ }
+
+ header .header h1 {
+     color: #fff;
+     padding: 3%;
+     position: absolute;
+     top: calc(50vh - 46.133px);
+     /* 46.133 - połowa z wysokości h1 */
+ }
+
+ header .header h1 span {
+     display: inline-block;
+     font-size: 1.3rem;
+     padding: 0 0 4% 0;
+ }

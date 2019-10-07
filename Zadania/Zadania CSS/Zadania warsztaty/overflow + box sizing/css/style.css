@@ -1,0 +1,23 @@
+/* p {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+} */
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+
+.one {
+    box-sizing: content-box;
+}
+
+.two {
+    box-sizing: border-box;
+}

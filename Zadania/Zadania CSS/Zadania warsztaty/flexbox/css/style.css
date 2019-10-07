@@ -1,0 +1,15 @@
+.container {
+    border: 2px dotted green;
+    padding: 5px;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .box {
+    border: 2px solid #444;
+    padding: 5px;
+    flex-basis: 200px;
+}

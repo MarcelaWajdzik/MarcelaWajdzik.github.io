@@ -1,0 +1,35 @@
+@media(max-width:1170px) {
+    header .header {
+        background-image: url("../zadanie-domowe-rwd-materialy/obrazy/man-2.jpg");
+        height: 70vh;
+        position: relative;
+    }
+
+    header .header h1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+@media(max-width:991px) {
+    header .header {
+        background-image: url("../zadanie-domowe-rwd-materialy/obrazy/man-1.jpg");
+        height: 50vh;
+        position: relative;
+    }
+
+    header .header h1 {
+        padding: 1%;
+        display: inline-block;
+        width: 100%;
+        color: #000;
+        position: absolute;
+        top: 50vh;
+        text-align: center;
+    }
+
+    header .header h1 span {
+        padding: 0 0 2% 0;
+    }
+}
