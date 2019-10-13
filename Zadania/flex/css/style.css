@@ -17,12 +17,12 @@ header h1 {
     padding: 1%;
 }
 
-section {
+article {
     flex-basis: 50%;
     order: 1;
 }
 
-section p {
+article p {
     background-color: rgb(35, 219, 219);
     padding: 2%;
     display: inline-block;
