@@ -32,3 +32,35 @@ for (let key in person) {
 }
 
 /* petli while */
+let randomNumber = parseInt(Math.random() * 10); //parsetIn wyrzuca liczbe całkowita
+console.log(randomNumber);
+
+
+while (randomNumber < 5) {
+    console.log(randomNumber);
+    randomNumber = parseInt(Math.random() * 10);
+
+}
+
+do {
+    console.log(randomNumber);
+    randomNumber = parseInt(Math.random() * 10);
+} while (randomNumber < 5)
+
+/* Instrukcja break */
+for (let i = 0; i < 10000; i++) {
+    console.log(i);
+    if (i > 100) { // if (i > 100) break;
+        break;
+    }
+}
+
+/* instrukcja continue */
+
+for (let i = 0; i < 100; i++) {
+    if (i % 4 !== 0) { // gdy i /4 daje reszta rowna zero to warunek nei jest spełniony i przerywa wiec wyswietla w consoli, gdy reszta nie jest rowna od zera to jest prawda i nastepuje przerwanie ale czesciowe bo wraca spowrotem do sprawdzaniawarunku
+        //wszystkie liczby mniejsze od 100 podzielneprzez 4 bez reszty  i%4===0 
+        continue;
+    }
+    console.log(i);
+}
