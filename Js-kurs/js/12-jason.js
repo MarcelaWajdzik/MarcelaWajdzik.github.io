@@ -1,4 +1,4 @@
-let jasonData = [{
+let jsonPracownicy = [{
         "id": 1,
         "name": "Leanne Graham",
         "username": "Bret",

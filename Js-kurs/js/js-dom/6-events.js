@@ -30,7 +30,7 @@ button.addEventListener('mouseover', mouseOver)
 
 document.getElementById('button').addEventListener('mouseover', mouseOver)
 
-// this przycisk naktory było ustawienie zdarzenie i on był odpowiedzialny za uruhcomienie tej funkcji 
+// this przycisk na ktory było ustawienie zdarzenie i on był odpowiedzialny za uruhcomienie tej funkcji 
 
 
 /* Blokowanie */

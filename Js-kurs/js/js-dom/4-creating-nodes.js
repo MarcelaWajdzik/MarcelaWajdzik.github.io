@@ -1,6 +1,6 @@
 /* creating nodes */
 let userList = ["Adam", 'Ola', "Kasia"]
-let userItem = document.createElement("li"); //tworzy nowy element 
+
 
 for (let i = 0; i < userList.length; i++) {
     let userItem = document.createElement("li"); //swtrzyc 3 elementy

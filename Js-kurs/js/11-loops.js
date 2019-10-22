@@ -14,7 +14,7 @@ for (let i = 0; i <= 50; i++) {
 let name = ["Adam", "Zosia", "Kamila", "Jerzy"];
 
 name.forEach(function (element, index) { //dla kazddego elemntu tablicy w consoli wydrukuj testmetoda wyłacznie dla tablic
-    console.log(`${index +1}, ${element}`);
+    console.log(users.pracownicy.pracownicy.fri[i]);
 
 });
 /* For in */
