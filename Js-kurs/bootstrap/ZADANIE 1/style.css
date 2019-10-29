@@ -1,0 +1,11 @@
+i {
+    font-size: 3.5em;
+}
+
+.fa-html5,
+.fa-css3-alt,
+.fa-js-square {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+}
