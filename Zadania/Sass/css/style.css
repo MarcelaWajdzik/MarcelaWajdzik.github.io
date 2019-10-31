@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif; }
+
+.container hr.divider-light-dark {
+  border-color: #a5e200; }
+
+h1 {
+  font-size: 66px; }
+
+h1,
+h4,
+h5,
+h6 {
+  font-family: "Archivo Black", sans-serif; }
+
+.header-contact {
+  background-color: #f0f4dc; }
+  .header-contact ul.list-inline li a i {
+    color: #a5e200; }
+  .header-contact ul.list-inline li a i:hover {
+    color: #88ba00; }
+
+nav#t108-main-nav form button.btn-search i {
+  color: #a5e200; }
+
+nav#t108-main-nav form button.btn-search i:hover {
+  color: #88ba00; }
+
+header#main-slider .carousel-inner {
+  font-style: 24px; }
+  header#main-slider .carousel-inner .item {
+    font-size: 24px; }
+    header#main-slider .carousel-inner .item a.btn {
+      background-color: #a5e200;
+      border: #a5e200;
+      font-size: 26px; }
+    header#main-slider .carousel-inner .item a.btn:hover {
+      background-color: #88ba00;
+      font-size: 26px; }
+
+header#main-slider a.carousel-control span {
+  background-color: #a5e200; }
+
+header#main-slider a.carousel-control span:hover {
+  background-color: #88ba00; }
+
+main.t108-container #front-page section#about .about-box i.fa {
+  background-color: #a5e200; }
+
+.t108-container #counters-numbers .container .counters-box i.fa {
+  color: #a5e200; }
+
+main.t108-container #counters-services .container i.fa {
+  color: #a5e200;
+  border-color: #a5e200; }
+
+#slider-testimonials a.carousel-control span {
+  background-color: #a5e200; }
+
+#slider-testimonials a.carousel-control span:hover {
+  background-color: #88ba00; }

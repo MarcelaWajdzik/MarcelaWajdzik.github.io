@@ -1,0 +1,13 @@
+#slider-testimonials {
+    a.carousel-control {
+        span {
+            background-color: $base-color;
+        }
+    }
+
+    a.carousel-control {
+        span:hover {
+            background-color: $hover-color;
+        }
+    }
+}

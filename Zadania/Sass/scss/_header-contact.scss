@@ -1,0 +1,19 @@
+.header-contact {
+    background-color: $background-color-section;
+
+    ul.list-inline {
+        li {
+            a {
+                i {
+                    color: $base-color;
+                }
+
+                i:hover {
+                    color: $hover-color;
+                }
+
+            }
+
+        }
+    }
+}
