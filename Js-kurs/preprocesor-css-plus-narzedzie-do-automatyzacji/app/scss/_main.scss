@@ -1,0 +1,26 @@
+ul {
+    background-color: chartreuse;
+
+    li {
+        background-color: rgb(27, 27, 26);
+
+        a {
+            color: $primary-color;
+        }
+    }
+}
+
+
+.one {
+    @include button;
+}
+
+.two {
+    @include button;
+    color: red;
+}
+
+.three {
+    @include button;
+    background-color: blue;
+}

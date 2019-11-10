@@ -27,3 +27,4 @@ for (i = 0; i < listItems.length; i++) {
 
     let listItem = document.querySelector('.list-item:nth-of-type(3)');
     console.log(listItem);
+}

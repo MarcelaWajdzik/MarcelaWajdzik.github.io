@@ -1,0 +1,9 @@
+.box-fluid {
+    background-color: red;
+    height: 300px;
+}
+
+.box {
+    background-color: rgb(141, 173, 24);
+    height: 20px;
+}

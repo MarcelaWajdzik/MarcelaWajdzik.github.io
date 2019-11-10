@@ -1,0 +1,39 @@
+header {
+    position: absolute;
+    left: 0;
+    right: 0; //wysrodkkowanie przy pozycji absolutnej
+    color: #ffffff;
+
+    .container {
+        justify-content: space-between;
+
+    }
+
+    .main-logo {
+        display: flex;
+        align-items: center;
+
+        i {
+            font-size: 2rem;
+            color: $base-color;
+        }
+
+        h2 {
+            margin-left: 5px;
+        }
+    }
+
+    .main-contact {
+        display: flex;
+        align-items: center;
+
+        i {
+            font-size: 2rem;
+
+        }
+
+        p {
+            margin-left: 5px;
+        }
+    }
+}

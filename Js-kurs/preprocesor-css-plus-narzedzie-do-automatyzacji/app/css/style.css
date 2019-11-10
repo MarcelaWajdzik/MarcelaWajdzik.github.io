@@ -1,0 +1,23 @@
+ul {
+  background-color: chartreuse; }
+  ul li {
+    background-color: #1b1b1a; }
+    ul li a {
+      color: #db6464; }
+
+.one {
+  background-color: orchid;
+  padding: 1em;
+  font-style: 20px; }
+
+.two {
+  background-color: orchid;
+  padding: 1em;
+  font-style: 20px;
+  color: red; }
+
+.three {
+  background-color: orchid;
+  padding: 1em;
+  font-style: 20px;
+  background-color: blue; }

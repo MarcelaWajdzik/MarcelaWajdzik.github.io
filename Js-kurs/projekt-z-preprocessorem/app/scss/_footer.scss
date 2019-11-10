@@ -1,0 +1,33 @@
+footer {
+    padding: 50px;
+    background-color: #292929;
+    color: #ffffff;
+
+    .container {
+        justify-content: space-around;
+
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            i {
+                background-color: $base-color;
+                font-size: 2em;
+                padding: 20px;
+
+            }
+
+
+        }
+
+        p {
+            padding: 5px;
+            text-align: center;
+            font-size: 0.8rem;
+
+        }
+    }
+}

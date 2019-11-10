@@ -1,0 +1,118 @@
+/* globalne */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #e38f42;
+}
+
+a:hover {
+    color: #e38f42;
+    text-decoration: none;
+}
+
+/*  nav*/
+.navbar {
+    background-color: #444;
+}
+
+/* sekcja 1 */
+.bg-picture {
+    background-image: url(../img/form-background.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.first-container {
+    padding: 3rem;
+}
+
+.title-us {
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 2%;
+}
+
+h1,
+p {
+    color: rgb(253, 253, 253);
+}
+
+form {
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.616);
+}
+
+input,
+textarea {
+    margin-top: 0.2rem;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+.btn-color {
+    background-color: #e38f42;
+}
+
+a.btn-color {
+    width: 100%;
+    color: #f3ebeb;
+}
+
+.title-us-two .btn-color {
+    padding: 2%;
+    color: #f3ebeb;
+}
+
+.btn-color-two {
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 2%;
+    color: #f3ebeb;
+    width: 20%;
+}
+
+.fa-pencil-alt {
+    color: #f6f6f6;
+    font-size: 4em;
+}
+
+.title-us-two .a-btn {
+    width: 30%;
+}
+
+.title-us-two h1 {
+    margin-top: 30%;
+    font-weight: 700;
+}
+
+iframe {
+    margin-top: 3rem;
+    height: 100%;
+    width: 100%;
+}
+
+#inspiracje {
+    margin-bottom: 6rem;
+}
+
+.three-section p {
+    color: #000;
+}
+
+h2 {
+    margin-top: 3rem;
+}
+
+.mw-footer p {
+    color: black;
+}
+
+footer {
+    background-color: #f3ebeb;
+    padding: 20px;
+}
